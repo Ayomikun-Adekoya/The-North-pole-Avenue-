@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<style>
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+.nav-button{
+    font-size: 13px;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(88, 76, 76);
+    background-color: white;
+    border-color: rgb(138, 138, 138);
+    margin-top: -75px;
+}
+h6{
+        font-size: 13px;
+        color: rgb(88, 76, 76);
+        font-family:'Times New Roman', Times, serif;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: -70px;
+    }
+
+#header-img{
+        width: 200px;
+        height: 200px;
+    }    
+
+.logo{
+    width: 100%;     
+    }
+button:hover {
+    animation-fill-mode: forwards;
+    animation-name: hover;
+    animation-duration: 1s;
+  }
+
+  @keyframes hover {
+    100% {
+    background-color: rgb(172, 151, 141);
+    }
+  }
+    button{
+        display: block;
+        width: 100%;
+        color: inherit;
+        cursor: pointer;      
+    }
+
+    nav{
+        display: flex;
+    }
+
+    .exibit_1{
+        width: 90%;
+        height: 600px;
+        margin-left: 5%;
+        margin-top: 30px;
+    }
+#exibition{ 
+    animation: changeBg 20s infinite; 
+        width: 90%;
+        height: 600px;
+        margin-left: 5%;
+        margin-top: 30px; 
+    }
+@keyframes changeBg{
+   0%,100%  {background-image: url("topboyword 2.png");}
+   25% {background-image: url("https://i.stack.imgur.com/2wKWi.png");}
+   50% {background-image: url("https://i.stack.imgur.com/HobHO.png");}
+   75% {background-image: url("topboyword 2.png");}
+}
+</style>
+<html >
+    <main> 
+    <header>
+        <nav id="nav-bar" class="align">
+            <div class="align" style="padding-left: 3%;">
+                <a style="text-decoration: none;" href=""><H6>COLLECTION</H6></a>
+                <a style="text-decoration: none;" href=""><H6>CLOTHES</H6></a> 
+                <a style="text-decoration: none;" href=""><H6>ASSESORIES</H6></a>
+            </div>
+            <div style="margin-left: 13%;"> 
+                <img id="header-img" class="logo" src="North_logo white.PNG" alt="The north pole avenue">
+            </div> 
+            <div class="align" style="margin-left: 20%;"">
+                <a style="text-decoration: none;" href=""> <button style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;" class="nav-button">HOME</button></a>
+                <a style="text-decoration: none;" href=""> <button style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;" class="nav-button">SHOP</button></a>
+                
+            </div>    
+        </nav>
+    </header>
+    <body>
+        <section id="exibition" ></section>
+    </body>
+
+    <footer></footer>
+    </main>
+</html>
