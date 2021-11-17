@@ -1,0 +1,25 @@
+{
+  "name": "The-North-pole-Avenue-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayomikun-Adekoya/The-North-pole-Avenue-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ayomikun-Adekoya/The-North-pole-Avenue-/issues"
+  },
+  "homepage": "https://github.com/Ayomikun-Adekoya/The-North-pole-Avenue-#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  }
+}
